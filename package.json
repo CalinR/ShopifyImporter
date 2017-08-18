@@ -1,0 +1,17 @@
+{
+  "name": "Shopify Importer",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "csv-parse": "^1.2.1",
+    "progress": "^2.0.0",
+    "shopify-api-node": "^2.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "create": "node index.js"
+  },
+  "author": "Calin Reimer",
+  "license": "ISC"
+}
