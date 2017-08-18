@@ -1,7 +1,7 @@
 {
   "name": "shopify-importer",
-  "version": "0.0.5",
-  "description": "",
+  "version": "0.0.6",
+  "description": "A tool for importing smart collections into Shopify",
   "dependencies": {
     "commander": "^2.11.0",
     "csv-parse": "^1.2.1",
