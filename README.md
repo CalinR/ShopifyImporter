@@ -3,6 +3,8 @@
 [![NPM Version](http://img.shields.io/npm/v/shopify-importer.svg?style=flat)](https://www.npmjs.org/package/shopify-importer)
 [![NPM Downloads](https://img.shields.io/npm/dm/shopify-importer.svg?style=flat)](https://www.npmjs.org/package/shopify-importer)
 
+A tool for importing smart collections into Shopify
+
 ## Installation
   ```
   $ npm install -g shopify-importer
