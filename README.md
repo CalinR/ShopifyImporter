@@ -22,3 +22,48 @@
   * apikey = apikey from private app
   * password = password from private app
   * shop = shop name without https:// and .myshopify.com
+  
+## CSV Format
+  | Handle        | Title         | Image         | Description    | Column        | Relation      | Condition     |
+  | ------------- | ------------- | ------------- | -------------- | ------------- | ------------- | ------------- |
+  | product-title | Product Title | http://...    | Lorem Ipsum... | tag           | equals        | tag-name      |
+  
+  1. handle (optional)
+  2. title (required)
+  3. image (optional)
+  4. description (optional)
+  5. column (required)
+    
+      **The following columns are restricted to text relations:**
+      * title
+      * type
+      * vendor
+      * variant_title
+      
+      **The following columns are restricted to number relations:**
+      * variant_compare_at_price
+      * variant_weight
+      * variant_inventory
+      * variant_price
+      
+      **The following column is restricted to the equals relation:**
+      * tag
+    
+  6. relation (required)
+  
+      **Number relations:**
+      * greater_than
+      * less_than
+      * equals
+      * not_equals
+      
+      **Text relations:**
+      * equals
+      * not_equals
+      * starts_with
+      * ends_with
+      * contains
+      * not_contains
+      
+  7. condition (required)
+  
